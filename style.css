@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto Condensed|Zilla+Slab:400,700,900');
+
+*{margin:0;padding:0;}
+body{/*background:url('https://dl.dropboxusercontent.com/u/18696822/side_b_kb/images/dark_tiled_bg.jpg');*/color:#f3cd97;background:#333;font-size:18px;}
+h1{font:900 5.5rem 'Roboto Condensed';line-height:0.8em;color:#ce5252;padding:25px 0;text-transform:uppercase;border-bottom:1px dashed #444;}
+h2{font:3rem 'Roboto Condensed';line-height:0.8em;color:#5ebe5e;padding:25px 0 10px 0;text-transform: uppercase;}
+th{font:3rem Arimo;color:#e67e22;}
+h3{font:2rem Arimo;line-height:0.8em;color:#e67e22;padding:25px 0;}
+p{line-height:1.5;padding:9px 0;font:1.75rem 'Zilla Slab';}
+/*blockquote{border-left:16px solid #5ebe5e;border-radius:5px;font:2.5rem 'Roboto Condensed';background:#ccc;color:#333; padding:25px;}
+blockquote li{font:1rem 'Roboto Condensed';margin-left:25px;}
+blockquote p{font-size:inherit;}
+ul, ol{margin-left:25px;}
+li{line-height:3em;font:1.5em Roboto;}
+*/
+a:link, a:visited{color:#837d73;text-decoration:none;}
+a:hover, a:active{color:#ce5252;}
+img{width:64px;margin:15px;}
+img:hover{-webkit-filter: grayscale(1);transition: -webkit-filter 2.5s ease;}
+pre{color:#e67e22;white-space: pre-wrap;}
+
+
+#box{margin:auto;width:960px;min-height:720px;border-left:2px solid #444;}
+header{background:#252525;width:100%;}
+#nav, footer{text-align:right; padding:5px 20px;}
+
+
+.logo{position:absolute;top:-12px;left:20px;}
+.article{float:left;width:300px;height:200px;background:white;margin:20px 8px;text-align:center;}
+.emphasis{color:#e74c3c;text-transform:uppercase;}
+.column{float:left;width:30%;}
+/*.attr{position:absolute;bottom:10px;right:10px;}*/
+
+#nav {border-bottom:thin solid #444;}
+#nav:hover{background:#252525;}
+#nav li a{font:900 1em Raleway;}
+#nav ul li {display:inline-block;}
+#nav ul li img {width:32px;vertical-align:middle;}
+#nav ul li a{vertical-align:middle;}
+
+footer{border-top:thin dashed #444;}
+footer p{font:0.75rem 'Roboto Condensed';text-transform:uppercase;}
+#banner{padding:15px;position:absolute;background:#ce5252;width:150px;left:30px;}
+
+.quote{}
+
+.fancy {
+    line-height: 0.2;
+    text-align: center;
+}
+.fancy span {
+    display: inline-block;
+    position: relative;
+}
+.fancy span:before,.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    border-bottom: 4px dotted #666159;
+    top: 50%;
+    width: 100%;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 10px;
+    width:390px;
+}
+.fancy span:after {
+    left: 100%;
+    margin-left: 10px;
+    width:390px;
+}

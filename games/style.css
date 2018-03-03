@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Roboto Condensed|Roboto:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Zilla Slab:400,700');
+
+
+*{margin:0;padding:0;}
+body{/*background:url('https://dl.dropboxusercontent.com/u/18696822/side_b_kb/images/dark_tiled_bg.jpg');*/color:#999;background:#333;}
+h1{font:900 8em Roboto;line-height:0.8em;color:#ccc;padding:25px 0;text-transform: uppercase;}
+h2{font:3em 'Roboto Condensed';line-height:0.8em;color:#5ebe5e;padding:25px 0 10px 0;text-transform: uppercase;}
+th{font:3em Arimo;color:#e67e22;}
+h3{font:2em Arimo;line-height:0.8em;color:#e67e22;padding:25px 0;}
+p{line-height:1.5;padding:9px 0;font:1.5em 'Zilla Slab';}
+blockquote{border-left:16px solid #5ebe5e;border-radius:5px;font:2.5em 'Roboto Condensed';background:#ccc;color:#333; padding:25px;}
+blockquote li{font:1em 'Roboto Condensed';margin-left:25px;}
+blockquote p{font-size:inherit;}
+ul, ol{margin-left:25px;}
+li{line-height:3em;font:1.5em Roboto;}
+a:link, a:visited{color:#e67e22;text-decoration:none;}
+a:hover, a:active{color:#5ebe5e;}
+pre{color:#e67e22;white-space: pre-wrap;}
+
+/*img{border: 5px solid #0465ac;margin:10px 0;width:99%;}*/
+
+#box{margin:auto;width:960px;min-height:720px;padding:25px;border-radius:5px;}
+header{background:#252525;width:100%;}
+#nav, footer{text-align:right; padding:5px 20px;background:#252525;color:#666;}
+#nav li, footer li{list-style:none;font-size:12pt;}
+#nav li a, footer li a{}
+
+
+.article{float:left;width:300px;height:200px;background:white;margin:20px 8px;text-align:center;}
+.emphasis{color:#e74c3c;text-transform:uppercase;}
+.column{float:left;width:30%;}

@@ -1,0 +1,9 @@
+li#accordion-section-responsiveness_unlock h3, li#accordion-section-responsiveness_contact h3 {
+    background: #4dbf99 !important;
+    color: #fff !important;
+    border-color: #388e71 !important;
+}
+
+li#accordion-section-responsiveness_unlock .accordion-section-title:after, li#accordion-section-responsiveness_contact .accordion-section-title:after{
+    color:#fff !important;
+}
